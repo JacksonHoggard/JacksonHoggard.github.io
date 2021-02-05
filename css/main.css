@@ -8,6 +8,26 @@
 	src: url("../fonts/ubuntu.ttf");
 }
 
+html {
+	cursor: url("../cursors/1.cur"), default;
+}
+
+a {
+	cursor: url("../cursors/3.cur"), default;
+}
+
+h1 {
+	cursor: url("../cursors/4.cur"), default;
+}
+
+h3 {
+	cursor: url("../cursors/4.cur"), default;
+}
+
+p {
+	cursor: url("../cursors/4.cur"), default;
+}
+
 .liguid {
   background-image: url("../images/liguid.gif");
   background-repeat: repeat;
