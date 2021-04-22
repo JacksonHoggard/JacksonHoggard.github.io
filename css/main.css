@@ -126,6 +126,18 @@ p {
 	background-size: 100%;
 }
 
+.img-kanye {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 10px;
+	width: 600px;
+	height: 600px;
+	background: url("../images/kanye.png") center top no-repeat;
+	background-size: 100%;
+}
+
 .img-path {
 	display: block;
 	margin-left: auto;
