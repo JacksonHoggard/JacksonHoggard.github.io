@@ -126,6 +126,10 @@ p {
 	background-size: 100%;
 }
 
+.img-monkey:hover {
+	background-image: url("../images/monkey.jpg");
+}
+
 .img-kanye {
 	display: block;
 	margin-left: auto;
