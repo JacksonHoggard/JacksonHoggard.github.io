@@ -102,6 +102,18 @@ p {
 	background-image: url("../images/voodoo.gif");
 }
 
+.img-dreamboard {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 10px;
+	width: 600px;
+	height: 300px;
+	background: url("../images/dreamboard.jpg") center top no-repeat;
+	background-size: 100%;
+}
+
 .img-donut {
 	display: block;
 	margin-left: auto;
