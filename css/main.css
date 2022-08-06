@@ -114,6 +114,18 @@ p {
 	background-size: 100%;
 }
 
+.img-semnosis {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 10px;
+	width: 400px;
+	height: 400px;
+	background: url("../images/mask.jpg") center top no-repeat;
+	background-size: 100%;
+}
+
 .img-donut {
 	display: block;
 	margin-left: auto;
