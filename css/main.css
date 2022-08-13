@@ -114,6 +114,10 @@ p {
 	background-size: 100%;
 }
 
+.img-dreamboard:hover {
+	background: url("../images/dreamboard.gif") center top no-repeat;
+}
+
 .img-semnosis {
 	display: block;
 	margin-left: auto;
@@ -124,6 +128,10 @@ p {
 	height: 400px;
 	background: url("../images/mask.jpg") center top no-repeat;
 	background-size: 100%;
+}
+
+.img-semnosis:hover {
+	background: url("../images/mask.gif") center top no-repeat;
 }
 
 .img-donut {
@@ -187,6 +195,18 @@ p {
 	width: 500px;
 	height: 500px;
 	background: url("../images/path.gif") center top no-repeat;
+	background-size: 100%;
+}
+
+.img-huh {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 10px;
+	width: 384px;
+	height: 480px;
+	background: url("../images/cock.gif") center top no-repeat;
 	background-size: 100%;
 }
 
