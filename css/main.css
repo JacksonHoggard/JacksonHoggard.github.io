@@ -28,18 +28,18 @@ p {
 	cursor: url("../cursors/4.cur"), default;
 }
 
-.liguid {
-  background-image: url("../images/liguid.gif");
-  background-repeat: repeat;
-}
-
-.eat {
-	background-image: url("../images/eat.gif");
+.macmonkey {
+	background-image: url("../images/macmonkey.gif");
 	background-repeat: repeat;
 }
 
-.cryptid {
-	background-image: url("../images/cryptid.gif");
+.bobby {
+	background-image: url("../images/bobby.gif");
+	background-repeat: repeat;
+}
+
+.dog {
+	background-image: url("../images/dog.gif");
 	background-repeat: repeat;
 }
 
@@ -137,8 +137,8 @@ p {
 	width: 50%;
 	padding: 10px;
 	width: 600px;
-	height: 435px;
-	background: url("../images/sish.jpg") center top no-repeat;
+	height: 498px;
+	background: url("../images/sish.png") center top no-repeat;
 	background-size: 100%;
 }
 
