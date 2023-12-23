@@ -96,7 +96,7 @@ async function getInputValue(){
   }
   else if(value === "resume"){
     trueValue(value);
-    createText("<a href='TODO' target='_blank'>Click here to view my resume!</a>")
+    createText("<a href='https://raw.githubusercontent.com/jacksonhoggard/JacksonHoggard.github.io/main/resume.pdf' target='_blank'>Click here to view my resume!</a>")
   }
   else if(value === "contact -a") {
     trueValue(value);
