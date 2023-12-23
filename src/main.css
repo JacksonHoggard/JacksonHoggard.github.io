@@ -1,0 +1,11 @@
+.stars {
+    width: 100%;
+    height: 100vh;
+}
+
+.img-me {
+    width: 10%;
+    height: 10%;
+    background: url("../images/me.png") center top no-repeat;
+	background-size: 100%;
+}
