@@ -108,10 +108,17 @@ async function getInputValue(){
     trueValue(value);
     createText("Did you mean: contact -a?")
   }
-  
   else if(value === "clear"){
     document.querySelectorAll("p").forEach(e => e.parentNode.removeChild(e));
     document.querySelectorAll("section").forEach(e => e.parentNode.removeChild(e));
+  }
+  else if(value === "kanye"){
+    trueValue(value);
+    createText("<a href='https://jacksonhoggard.me/kanye.js/' target='_blank'>kanye</a>");
+  }
+  else if(value === "secret"){
+    trueValue(value);
+    createText("<a href='https://jacksonhoggard.me/realportfolio/' target='_blank'>the real portfolio</a>");
   }
   else{
     falseValue(value);
