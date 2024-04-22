@@ -89,10 +89,10 @@ async function getInputValue(){
   }
   else if(value === "about"){
     trueValue(value);
-    createText("Hey there! My name is Jackson Hoggard and I am a Junior pursuing a Bachelors of Science in Computer Science at the University of Texas at Dallas.");
+    createText("Hey there! My name is Jackson Hoggard and I am a Senior pursuing a Bachelors of Science in Computer Science at the University of Texas at Dallas.");
     createText("I have experience in backend software development and the agile software development method through my time spent working at a video game studio.");
     createText("At UTD, I am involved in the Association for Computing Machinery, having participated in ACM Projects and HackUTD."); 
-    createText("I excel at teamwork, technical communication, leadership, critical thinking, and problem solving. I have a passion for computer programming and I aim to participate in a software engineering internship starting May 2024.");
+    createText("I excel at teamwork, technical communication, leadership, critical thinking, and problem solving. I have a passion for computer programming and I aim for excellence in everything I do.");
   }
   else if(value === "resume"){
     trueValue(value);
