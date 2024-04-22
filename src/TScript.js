@@ -80,12 +80,12 @@ async function getInputValue(){
   }
   else if(value === "projects"){
     trueValue(value);
-    createText("For all projects, check out my github: <a href='https://github.com/jacksonhoggard' target='_blank'>github.com/jacksonhoggard</a>");
-    createText("Voodoo2D: <a href='https://github.com/JacksonHoggard/voodoo2d' target='_blank'>Check it out</a>");
-    createText("DreamBoard: <a href='https://www.youtube.com/watch?v=EOh4-mc4naI' target='_blank'>Check it out</a><a href='https://github.com/acm-projects/DreamBoard' target='_blank'> &lt;Source Code/&gt;</a>");
-    createText("Sish: <a href='https://github.com/JacksonHoggard/sish' target='_blank'>Check it out</a>");
-    createText("SishFuzz: <a href='https://github.com/JacksonHoggard/sishfuzz' target='_blank'>Check it out</a>");
-    createText("PyMosaic: <a href='https://github.com/JacksonHoggard/pymosaic' target='_blank'>Check it out</a>");
+    createText("<b>For all my projects, check out my github:</b> <a href='https://github.com/jacksonhoggard' target='_blank'>github.com/jacksonhoggard</a>");
+    createCode("<b>RayDream:</b>", "A simple yet powerful ray tracer implemented in Java. RayDream creates realistic images by simulating the behavior of light rays as they interact with objects in a scene. <a href='https://github.com/JacksonHoggard/raydream' target='_blank'>Check it out</a>");
+    createCode("<b>Voodoo2D:</b>", "A lightweight engine to easily build complex cross-platform 2D games in Java. <a href='https://github.com/JacksonHoggard/voodoo2d' target='_blank'>Check it out</a>");
+    createCode("<b>DreamBoard:</b>", "Plan your next perfect room by selecting any color palette of your choice. This website will then scout the ideal furniture choices for your dream room along with the perfect side pieces to go along! <a href='https://www.youtube.com/watch?v=EOh4-mc4naI' target='_blank'>Demo</a><a href='https://github.com/acm-projects/DreamBoard' target='_blank'> &lt;Source Code/&gt;</a>");
+    createCode("<b>Sish:</b>", "A simple shell for Linux environments written in C. <a href='https://github.com/JacksonHoggard/sish' target='_blank'>Check it out</a>");
+    createCode("<b>SishFuzz:</b>", "Fuzzers for the Sish simple shell program. <a href='https://github.com/JacksonHoggard/sishfuzz' target='_blank'>Check it out</a>");
   }
   else if(value === "about"){
     trueValue(value);
@@ -167,7 +167,7 @@ function createCode(code, text){
   const p = document.createElement("p");
   p.setAttribute("class", "code");
   p.innerHTML =
- `${code} <br/><span class='text'> ${text} </span>`;
+ `${code}<br/><span class='text'>${text}</span>`;
   app.appendChild(p);
 }
 
