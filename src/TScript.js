@@ -81,18 +81,18 @@ async function getInputValue(){
   else if(value === "projects"){
     trueValue(value);
     createText("<b>For all my projects, check out my github:</b> <a href='https://github.com/jacksonhoggard' target='_blank'>github.com/jacksonhoggard</a>");
-    createCode("<b>RayDream:</b>", "A simple yet powerful ray tracer implemented in Java. RayDream creates realistic images by simulating the behavior of light rays as they interact with objects in a scene. <a href='https://github.com/JacksonHoggard/raydream' target='_blank'>Check it out</a>");
+    createCode("<b>RayDream:</b>", "A powerful ray tracer implemented in Java. RayDream creates realistic images by simulating the behavior of light rays as they interact with objects in a scene. <a href='https://github.com/JacksonHoggard/raydream' target='_blank'>Check it out</a>");
     createCode("<b>Voodoo2D:</b>", "A lightweight engine to easily build complex cross-platform 2D games in Java. <a href='https://github.com/JacksonHoggard/voodoo2d' target='_blank'>Check it out</a>");
     createCode("<b>DreamBoard:</b>", "Plan your next perfect room by selecting any color palette of your choice. This website will then scout the ideal furniture choices for your dream room along with the perfect side pieces to go along! <a href='https://www.youtube.com/watch?v=EOh4-mc4naI' target='_blank'>Demo</a><a href='https://github.com/acm-projects/DreamBoard' target='_blank'> &lt;Source Code/&gt;</a>");
     createCode("<b>Sish:</b>", "A simple shell for Linux environments written in C. <a href='https://github.com/JacksonHoggard/sish' target='_blank'>Check it out</a>");
-    createCode("<b>SishFuzz:</b>", "Fuzzers for the Sish simple shell program. <a href='https://github.com/JacksonHoggard/sishfuzz' target='_blank'>Check it out</a>");
   }
   else if(value === "about"){
     trueValue(value);
-    createText("Hey there! My name is Jackson Hoggard and I am a Senior pursuing a Bachelors of Science in Computer Science at the University of Texas at Dallas.");
-    createText("I have experience in backend software development and the agile software development method through my time spent working at a video game studio.");
-    createText("At UTD, I am involved in the Association for Computing Machinery, having participated in ACM Projects and HackUTD."); 
-    createText("I excel at teamwork, technical communication, leadership, critical thinking, and problem solving. I have a passion for computer programming and I aim for excellence in everything I do.");
+    createText("Hi, I'm Jack, a Senior Computer Science major at the University of Texas at Dallas with a passion for creativity and innovation in technology. I specialize in computer graphics and have hands-on experience designing graphical interfaces, developing raytracing projects, and performing advanced GPU computations.");
+    createText("Beyond academics, I've explored my love for game design, having worked in the industry for over a year and honing my skills in creating immersive, interactive experiences.");
+    createText("When I'm not coding, you'll likely find me playing music and writing folk, blues, and experimental rock.");
+    createText("I thrive in collaborative, creative environments and enjoy tackling challenging problems, whether in graphics programming, machine learning, or musical storytelling.");
+    createText("Feel free to explore my projects, connect, or collaborate!");
   }
   else if(value === "resume"){
     trueValue(value);
