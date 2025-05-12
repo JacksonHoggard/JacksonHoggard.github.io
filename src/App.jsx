@@ -1,5 +1,5 @@
 import Starfield from "react-starfield";
-import Terminal from "./Terminal";
+import Terminal from "./Terminal.jsx";
 
 function App() {
     return (
